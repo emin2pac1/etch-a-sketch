@@ -24,3 +24,10 @@ allCells.forEach(cell => {
         cell.style.backgroundColor = "black";
     })
 });
+
+const resetButton = document.createElement('button');
+resetButton.style.display = "flex";
+resetButton.style.flexDirection = "row";
+resetButton.style.justifyContent = "center"
+resetButton.textContent="Clear";
+containerDiv.appendChild(resetButton);
